@@ -11,13 +11,19 @@ server does not require an npm/Docker package or disclosure of the private app.
 1. Review `server.json` and verify the live server version and documented tools.
 2. Validate it with the official Registry validation endpoint or the current
    `mcp-publisher validate` command.
-3. Install `mcp-publisher` from its official release and authenticate the
-   `Givi-hub` GitHub namespace. Do not commit its authentication files or tokens.
+3. Install `mcp-publisher` from its official release and authenticate the `litak.io`
+   domain using HTTP or DNS verification. Do not commit private signing keys,
+   publisher authentication files or tokens.
 4. Publish the reviewed descriptor using the current publisher instructions.
 5. Verify the resulting registry entry and retain its URL.
 
-The namespace `io.github.Givi-hub/litak-mcp` must be authenticated by its owner.
+The namespace `io.litak/mcp` must be authenticated by the domain owner.
 Creating this repository alone does not publish a registry entry.
+
+The `mcp-registry-auth` file contains only a public Ed25519 verification key.
+It is served at `https://litak.io/.well-known/mcp-registry-auth` for HTTP-based
+ownership verification. The private signing key is kept outside this repository.
+The optional repository field is intentionally omitted from `server.json`.
 
 Official instructions:
 
