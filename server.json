@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Givi-hub/litak-mcp",
+  "title": "Litak",
+  "description": "Connect your Litak goals, habits, weekly plan and sleep with scoped OAuth or Bearer access.",
+  "version": "1.2.0",
+  "websiteUrl": "https://litak.io/mcp-guide",
+  "repository": { "url": "https://github.com/Givi-hub/litak-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://litak.io/mcp" }]
+}

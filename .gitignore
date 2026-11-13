@@ -1,0 +1,10 @@
+# Publication allowlist. Application source and local files are ignored by default.
+*
+!/.gitignore
+!/README.md
+!/COPYRIGHT.md
+!/SECURITY.md
+!/server.json
+!/docs/
+!/docs/connect.md
+!/docs/registry.md
