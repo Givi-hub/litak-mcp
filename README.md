@@ -44,9 +44,10 @@ The Litak application and MCP implementation remain private. No application
 source, private Git history, credentials, account records or database exports are
 included. This repository is not a self-hostable server or an open-source release.
 
-[`server.json`](server.json) is prepared for submission to the official MCP
-Registry. Publication of this repository does not imply registry acceptance,
-review or endorsement. See [submission instructions](docs/registry.md).
+[`server.json`](server.json) is published in the official MCP Registry as
+[`io.litak/mcp`](https://registry.modelcontextprotocol.io/v0.1/servers/io.litak%2Fmcp/versions/latest),
+version `1.2.0`. The domain was verified through HTTP. A registry listing is
+metadata, not a security review or endorsement. See [submission instructions](docs/registry.md).
 
 ## Privacy and rights
 

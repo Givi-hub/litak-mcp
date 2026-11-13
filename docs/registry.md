@@ -5,6 +5,11 @@ metadata-only, with no open-source license or public server implementation.
 
 ## Official MCP Registry
 
+Published on November 13, 2026 as `io.litak/mcp`, version `1.2.0`.
+The official API reports `active` and `isLatest: true`:
+
+https://registry.modelcontextprotocol.io/v0.1/servers/io.litak%2Fmcp/versions/latest
+
 The official registry supports publicly accessible remote endpoints. A remote-only
 server does not require an npm/Docker package or disclosure of the private app.
 
