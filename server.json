@@ -3,7 +3,8 @@
   "name": "io.litak/mcp",
   "title": "Litak",
   "description": "Connect your Litak goals, habits, weekly plan and sleep with scoped OAuth or Bearer access.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "websiteUrl": "https://litak.io/mcp-guide",
-  "remotes": [{ "type": "streamable-http", "url": "https://litak.io/mcp" }]
+  "repository": { "url": "https://github.com/Givi-hub/litak-mcp", "source": "github" },
+  "remotes": [ { "type": "streamable-http", "url": "https://litak.io/mcp" } ]
 }
